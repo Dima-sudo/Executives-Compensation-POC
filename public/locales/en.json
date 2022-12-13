@@ -1,0 +1,64 @@
+{
+    "homePage": "This is the Home Page",
+
+    "configuration": {
+        "compensationComparison": "Compensation Comparison",
+        "selectCompany": "Select a company for benchmark creation",
+        "selectDataForComparison": "Select data for comparison group creation",
+        "findCompanyById": "Find company by ID",
+        "findCompanyByIndustry": "Find company by industry",
+        "companyId": "Company ID",
+        "companyName": "Company name",
+        "industry": "Industry",
+        "sector": "Sector",
+        "newCompany": "New company",
+        "selectKPIs": "Select KPI",
+        "recommendedKPIs": "These are the recommended KPIs for group creation in the the selected industry, these are configurable",
+        "selectComparisonPeers": "Select peers for comparison",
+        "selectManagementPosition": "Select benchmark management position",
+        "summaryAndReview": "Summarize and generate report",
+        "newPosition": "New position",
+        "compensationBreakdown": "Compensation breakdown",
+        "next": "Next",
+        "previous": "Previous",
+        "recommendedConfiguration": "This is the recommended default configuration for building your comparison group. These settings are changeable.",
+        "newKpi": "New KPI",
+        "companiesForComparison": "Selected companies for comparison",
+        "compensationComparisonFor": "Compensation comparison for",
+        "forTitle": "For title",
+        "finish": "Finish",
+        "almostReadyTitle": "Your report is almost ready",
+        "checkAllValues": "Please double check the entered parameters before moving forward. Proceed?",
+        "cancel": "Cancel"
+    },
+
+    "footer:": {
+        "services": {
+            "services": "Services",
+            "auditAndInsurance": "Audit & Assurance",
+            "consulting": "Consulting",
+            "riskAdvisory": "Risk Advisory",
+            "financialAdvisory": "Financial Advisory",
+            "tax": "Tax"
+        },
+        "industries": {
+            "infustries": "Industries",
+            "consumerEnergyResources": "Consumer, Energy, Resources & Industrials",
+            "financialServices": "Financial Services",
+            "deloitteCatalyst": "Deloitte Catalyst",
+            "governmentAndPublic": "Government & Public Services",
+            "techMediaTelecommunications": "Technology, Media & Telecommunications",
+            "lifeSciencesAndHealth": "Life Sciences & Health Care"
+        },
+        "aboutDeloitte": {
+            "aboutDeloitteIsrael": "About Deloitte Israel",
+            "careers": "Careers",
+            "about": "About Deloitte"
+        },
+        "disclaimer:": {
+            "paragraph1": "Deloitte refers to one or more of Deloitte Touche Tohmatsu Limited, a UK private company limited by guarantee (“DTTL”), its global network of member firms, and their related entities. DTTL and each of its member firms are legally separate and independent entities. DTTL (also referred to as “Deloitte Global”) does not provide services to clients.  Please see www.deloitte.com/about for a more detailed description of DTTL and its member firms.",
+            "paragraph2": "Deloitte Israel & Co. is a firm in Deloitte Global network. Deloitte Israel Group a leading professional services firms, providing a wide range of world-class audit, tax, consulting, financial advisory and trust services. The firm serves domestic and international clients, public institutions and promising fast-growth companies whose shares are traded on the Israeli, US, European and foreign capital markets.",
+            "rightsReserved": "©2021 Deloitte Israel & Co."
+        }
+    }
+}

@@ -1,0 +1,32 @@
+export const colors = {
+    green10: '#CCFF00',
+    green20: '#ADEA3F',
+    green30: '#95CA3C',
+    green40: '#86BC25',
+    green50: '#44B02A',
+    green60: '#26890D',
+
+    gray10: '#FEFEFE',
+    gray20: '#F4F6F8',
+    gray30: '#EFEEEE',
+    gray40: '#EAEDED',
+    gray50: '#D8D8D8',
+    gray60: '#D0D0CE',
+    gray70: '#BABABA',
+    gray80: '#BBBCBC',
+    gray90: '#5E5E5E',
+    gray100: '#474747',
+    gray110: '#363636',
+    gray120: '#272727',
+
+    blue10: '#A0DCFF',
+    blue20: '#33F0FF',
+    blue30: '#4EB9F8',
+    blue40: '#62B5E5',
+    blue50: '#00A3E0',
+    blue60: '#104153',
+
+    white: '#FFFFFF',
+    black: '#000000',
+    textDefault: '#2c2e2f',
+};
