@@ -1,6 +1,4 @@
 {
-    "homePage": "This is the Home Page",
-
     "configuration": {
         "compensationComparison": "Compensation Comparison",
         "selectCompany": "Select a company for benchmark creation",
@@ -32,7 +30,12 @@
         "cancel": "Cancel"
     },
 
-    "footer:": {
+    "reportGenerated": {
+        "reportGenerated": "Your report was generated successfully",
+        "takeMeThere": "Take me there"
+    },
+
+    "footer": {
         "services": {
             "services": "Services",
             "auditAndInsurance": "Audit & Assurance",
@@ -42,7 +45,7 @@
             "tax": "Tax"
         },
         "industries": {
-            "infustries": "Industries",
+            "industries": "Industries",
             "consumerEnergyResources": "Consumer, Energy, Resources & Industrials",
             "financialServices": "Financial Services",
             "deloitteCatalyst": "Deloitte Catalyst",
@@ -55,10 +58,17 @@
             "careers": "Careers",
             "about": "About Deloitte"
         },
-        "disclaimer:": {
+        "disclaimer": {
             "paragraph1": "Deloitte refers to one or more of Deloitte Touche Tohmatsu Limited, a UK private company limited by guarantee (“DTTL”), its global network of member firms, and their related entities. DTTL and each of its member firms are legally separate and independent entities. DTTL (also referred to as “Deloitte Global”) does not provide services to clients.  Please see www.deloitte.com/about for a more detailed description of DTTL and its member firms.",
             "paragraph2": "Deloitte Israel & Co. is a firm in Deloitte Global network. Deloitte Israel Group a leading professional services firms, providing a wide range of world-class audit, tax, consulting, financial advisory and trust services. The firm serves domestic and international clients, public institutions and promising fast-growth companies whose shares are traded on the Israeli, US, European and foreign capital markets.",
             "rightsReserved": "©2021 Deloitte Israel & Co."
         }
+    },
+
+    "login": {
+        "username": "Username",
+        "password": "Password",
+        "dontHaveAnAccount": "Don't have an account? click here to learn more.",
+        "compensationMadeEasy": "Compensation, made easy."
     }
 }

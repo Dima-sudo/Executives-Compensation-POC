@@ -32,7 +32,10 @@ const Drawer: React.FC<IProps> = ({ items, isOpen, onClose = () => null }) => {
                     <ListItem
                         key={label}
                         disablePadding
-                        onClick={() => navigate(route)}
+                        onClick={() => {
+                            navigate(route);
+                            onClose();
+                        }}
                     >
                         <ListItemButton>
                             <ListItemIcon>

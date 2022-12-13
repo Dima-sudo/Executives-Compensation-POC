@@ -59,7 +59,12 @@ const MockChart: React.FC<IProps> = ({ chartType, isFullWidth }) => {
         datasets: [
             {
                 label: 'Dataset-1',
-                data: [300, 50, 100, 150],
+                data: [
+                    faker.datatype.number({ min: 0, max: 300 }),
+                    faker.datatype.number({ min: 0, max: 300 }),
+                    faker.datatype.number({ min: 0, max: 300 }),
+                    faker.datatype.number({ min: 0, max: 300 }),
+                ],
                 backgroundColor: [
                     colors.color1,
                     colors.color2,
@@ -174,7 +179,7 @@ const MockChart: React.FC<IProps> = ({ chartType, isFullWidth }) => {
                     x: faker.datatype.number({ min: -100, max: 100 }),
                     y: faker.datatype.number({ min: -100, max: 100 }),
                 })),
-                backgroundColor: colors.color3,
+                backgroundColor: colors.color4,
             },
         ],
     };

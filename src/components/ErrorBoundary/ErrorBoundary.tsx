@@ -7,7 +7,10 @@ const ErrorBoundary: React.FC<FallbackProps> = ({
     resetErrorBoundary,
 }) => (
     <div role="alert">
-        <p>Something went wrong</p>
+        <p>
+            Whoops. There might be a problem with this page, or it has not been
+            built yet.
+        </p>
         {error?.message && <pre>{error?.message}</pre>}
 
         {resetErrorBoundary && (

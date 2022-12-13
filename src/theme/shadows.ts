@@ -23,5 +23,6 @@ export const shadows = {
         heavy3: '4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15)',
         heavy4: '0px 4px 3px rgba(0,0,0,0.4), 0px 8px 13px rgba(0,0,0,0.1), 0px 18px 23px rgba(0,0,0,0.1)',
         ghost: '-0.03em 0 0 red, 0.03em 0 0 cyan',
+        slight: '0 1px 1px rgba(0,0,0,0.25)',
     },
 };

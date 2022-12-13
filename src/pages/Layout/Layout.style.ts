@@ -28,7 +28,32 @@ export const FluidWidthContainer = styled(ContainerComponent)(
         backgroundColor: colors.gray40,
         paddingTop: '1.5rem',
         paddingBottom: '1.5rem',
+        display: 'flex',
+        flexDirection: 'column',
+
+        '& > *': {
+            flex: 1,
+        },
     })
 );
 
-export const FooterContainer = styled(ContainerComponent)(() => ({}));
+export const FooterContainer = styled(ContainerComponent)(
+    ({
+        theme: {
+            custom: { colors },
+        },
+    }) => ({
+        backgroundColor: colors.gray90,
+        width: '100%',
+    })
+);
+
+export const FooterContainerFullWidth = styled('div')(
+    ({
+        theme: {
+            custom: { colors },
+        },
+    }) => ({
+        backgroundColor: colors.gray90,
+    })
+);

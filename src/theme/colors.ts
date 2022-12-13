@@ -28,5 +28,6 @@ export const colors = {
 
     white: '#FFFFFF',
     black: '#000000',
-    textDefault: '#2c2e2f',
+    // textDefault: '#2c2e2f',
+    textDefault: '#474747',
 };

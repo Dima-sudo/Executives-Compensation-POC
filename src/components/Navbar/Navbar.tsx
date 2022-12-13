@@ -28,7 +28,7 @@ const Navbar: React.FC<IProps> = ({ navItems }) => {
     const drawerItems = [
         {
             label: 'My Reports',
-            route: '/reports',
+            route: '/reports/my-reports',
         },
         {
             label: 'Profile',

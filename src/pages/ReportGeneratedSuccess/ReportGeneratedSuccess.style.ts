@@ -1,8 +1,8 @@
 import { styled, keyframes } from '@mui/material/styles';
 
-export const PageContainer = styled('div')(() => ({
-    border: '1px solid red',
-}));
+import { Button as ButtonComponent } from '@mui/material';
+
+export const PageContainer = styled('div')(() => ({}));
 
 const bounceInForward = keyframes`
     0% {
@@ -74,8 +74,25 @@ export const BubbleSuccessMessage = styled('div')(
         height: '32rem',
         textAlign: 'center',
         display: 'flex',
+        flexDirection: 'column',
         alignItems: 'center',
+        justifyContent: 'center',
 
         animation: `${bounceInForward} 1.2s both`,
     })
 );
+
+export const FlexContainer = styled('div')(() => ({
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+}));
+
+export const TextContainer = styled('span')(() => ({
+    marginBottom: '3rem',
+}));
+
+export const Button = styled(ButtonComponent)(() => ({
+    padding: '0.75rem',
+    width: '15rem',
+}));

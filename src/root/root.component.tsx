@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import React, { StrictMode } from 'react';
+import React, { StrictMode, useState } from 'react';
 import { RouterProvider } from 'react-router-dom';
 import { QueryClient, QueryClientProvider } from 'react-query';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
@@ -8,6 +8,7 @@ import useAppRouter from './hooks/useAppRouter';
 
 import { ITheme, theme as CustomTheme } from '../theme';
 import '../normalize.css';
+import Login from '../components/Login/Login';
 
 declare module '@mui/material/styles' {
     interface Theme {
@@ -19,6 +20,7 @@ declare module '@mui/material/styles' {
 }
 const Root = () => {
     const queryClient = new QueryClient();
+    const [isLoggedIn, setIsLoggedIn] = useState(false);
     const { router } = useAppRouter();
     const theme = createTheme({
         custom: CustomTheme,
@@ -36,7 +38,11 @@ const Root = () => {
         <StrictMode>
             <QueryClientProvider client={queryClient}>
                 <ThemeProvider {...{ theme }}>
-                    <RouterProvider {...{ router }} />
+                    {isLoggedIn ? (
+                        <RouterProvider {...{ router }} />
+                    ) : (
+                        <Login setIsLoggedIn={setIsLoggedIn} />
+                    )}
                 </ThemeProvider>
             </QueryClientProvider>
         </StrictMode>

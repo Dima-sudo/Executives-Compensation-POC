@@ -15,6 +15,8 @@ const ReportGeneratedSuccess = lazy(
     () => import('../../pages/ReportGeneratedSuccess/ReportGeneratedSuccess')
 );
 
+const MyReports = lazy(() => import('../../pages/MyReports/MyReports'));
+
 interface Route {
     path: string;
     element: ReactNode;
@@ -43,6 +45,10 @@ const useAppRouter = () => {
         {
             path: '/reports/success',
             element: <ReportGeneratedSuccess />,
+        },
+        {
+            path: '/reports/my-reports',
+            element: <MyReports />,
         },
     ];
 

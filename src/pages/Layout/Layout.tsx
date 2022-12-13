@@ -6,6 +6,7 @@ import ErrorBoundaryFallbackComponent from '../../components/ErrorBoundary/Error
 import Navbar from '../../components/Navbar/Navbar';
 
 import * as S from './Layout.style';
+import Footer from './components/Footer/Footer';
 
 const Layout = () => {
     const navItems = [
@@ -28,9 +29,12 @@ const Layout = () => {
                         <Outlet />
                     </S.FluidWidthContainer>
                 </S.ContentContainer>
-                <S.FooterContainer>
-                    <footer>Footer</footer>
-                </S.FooterContainer>
+
+                <S.FooterContainerFullWidth>
+                    <S.FooterContainer>
+                        <Footer />
+                    </S.FooterContainer>
+                </S.FooterContainerFullWidth>
             </ErrorBoundary>
         </S.Main>
     );

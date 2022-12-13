@@ -94,10 +94,21 @@ module.exports = (_env, argv) => {
                         },
                     },
                 },
+                // {
+                //     // Also performs SVGO
+                //     test: /\.svg$/,
+                //     use: ['@svgr/webpack'],
+                // },
                 {
-                    // Also performs SVGO
                     test: /\.svg$/,
-                    use: ['@svgr/webpack'],
+                    use: [
+                        {
+                            loader: 'svg-url-loader',
+                            options: {
+                                limit: 10000,
+                            },
+                        },
+                    ],
                 },
                 {
                     test: /\.(eot|otf|ttf|woff|woff2)$/,
